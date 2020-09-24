@@ -1,0 +1,17 @@
+// copyright Herfeld-Dee 24, September, 2020
+ 
+<?php
+if($chat_lower == 'qris') {
+    $filename = 'removed'; // your file image url
+    $file_type = 'image/png'; // replace png with your file type as example .jpeg
+    $source = base64_encode(file_get_contents($filename));
+    $output[] = [
+        'type' => 'file',
+        'data' => [
+            'mode' => 'chat',
+            'pesan' => '*Lorem Imspum*', // caption of the image
+            'filetype' => $file_type,
+            'source' => $source,
+            'name' => 'world is the most perfect thing' // this doesnt effect of the front end of whatsapp bot
+           ]];
+    }
