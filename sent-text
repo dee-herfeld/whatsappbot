@@ -1,0 +1,25 @@
+// you may copy all of the text that would be ez
+// copyright to Herfeld-Dee 24-September-2020
+ 
+<?php
+if($chat_lower == 'aturan') { //  replace what you want to use, so if your customer type that. bot will appeared
+$msg = "*Hallo \n\n *DILARANG KERAS*\n- SARA , POLITIK , SPAM BOT\n- JUALAN \n- BAHAS PANEL LAIN\n\n*_BAGI YANG MELANGGAR AKAN KAMI BANNED DARI GROUP_*\n\n_Layanan Cut Off Di Jam 00.00-03.00_\n  Terima kasih^_^* ";
+ 
+    if($isGroup == true) { // $isGroup == true means that if the chat is located on the group
+        $output[] = ['type' => 'message','data' => [
+            'mode' => 'reply',
+            'pesan' => "*_Halo $username detail peraturan panel sudah kami kirim via personal chat, Mohon dibaca dan disimak baik-baik_*"
+        ]];
+        $WATL->sendMessage($from_number,$msg); // this context is when the bot is requested on the group and sent the info via private chat requester
+    } else {
+        $output[] = ['type' => 'message','data' => [
+            'mode' => 'message',
+            'pesan' => $msg
+        ]];
+    }
+}
+ 
+// funtion temp chat //
+// \n = new line on the chat
+// *text* = bold text whatsapp
+// _text_ = tilted text whatsapp
