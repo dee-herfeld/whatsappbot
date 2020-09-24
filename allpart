@@ -1,0 +1,48 @@
+# Whatsapp Bot
+Hi Humans, Im Dee from BerPesan! & Emerald-Group Back-End Developer. This is my first github page, On this first topic i would teach you how you to create your own
+Whatsapp Bot.
+
+First of all let me explain what is <code>WhatsApp Bot</code> is, In general Bot is a robot that works by the program create by us. So whatsapp bot is a robot program that
+we created.
+
+Lets Start,
+
+
+
+First of all lets get the WhatsApp bot service first on Atlantic-Group.id, Purchase their WhatsApp bot service first, Before you purchase make sure you make your hook
+web page system on your website, Here is the hook code
+
+<p>-------=--------</p>
+<li>- You can name your hook as https://yourweb/bot/hook.php</li>
+I recommended you to make a file name /bot/program-bot (replace program-bot with your program name)
+
+For checking the hook file you may check at my pastebin page by <a href="https://pastebin.com/embed_iframe/m6KJwkm0">Clicking Here</a>
+
+Before you creating your hook, Create a file first named AtlanticWhatsApp.php at your /lib/. Please make sure file name is same so it will sincronized to Atlantic-Group Server
+You may look the coding by <a href="https://pastebin.com/embed_iframe/s3n25jpK">Clicking Here</a>, The file is ready to be used.
+The last step put this code in your config file, (the file to connect your web to databases) by <a href="https://pastebin.com/embed_iframe/wghxLJCq">Clicking Here</a>
+
+For your set config main you are done. now we proceed to our bot program
+
+<p>-------=--------</p>
+<li>- I will start with temp chat text first</li>
+<b><p>First of all make sure you named the bot file with cmd-<b>your-file-name<b> after that do not forgot to put cmd-<b>your-file-name</b> on the hook,</p> if you forgot where to put
+you may check again my PasteBin documentation about the bot/hook.php by <a href="https://pastebin.com/embed_iframe/s3n25jpK">Clicking Here</a>. 
+
+</p>This is the temp chat for text bot click there https://pastebin.com/embed_iframe/Nkx05N7L. Copy paste all of them and create a new folder name cmd-<b>filename</b></p>
+
+<p> If you have put in your hook the cmd-<b>file-name</b>, now your bot is ready to be operated</p>
+
+</div>
+<p>-------=--------</p>
+<li>- I will start now temp chat sent images</li>
+
+<b><p>First of all make sure you named the bot file with cmd-<b>your-file-name<b> after that do not forgot to put cmd-<b>your-file-name</b> on the hook,</p> if you forgot where to put
+you may check again my PasteBin documentation about the bot/hook.php by <a href="https://pastebin.com/embed_iframe/s3n25jpK">Clicking Here</a>. 
+
+</p>This is the temp chat sent images for text bot click there https://pastebin.com/embed_iframe/0a1AxTNN. Copy paste all of them and create a new folder name cmd-<b>filename</b></p>
+
+<p> If you have put in your hook the cmd-<b>file-name</b>, now your bot is ready to be operated</p>
+
+<p>-------=--------</p>
+<b>So this is the end of my GitHub of WhatsApp-Bot. Hope you can create your own program, Enjoy :)
