@@ -1,0 +1,11 @@
+// Erase the last line of your config file and replace with the code
+// copyright to Herfeld-Dee 24-September-2020
+ 
+// date & time
+$date = date("Y-m-d");
+$time = date("H:i:s");
+require("lib/function.php");
+require("lib/setting.php");
+require("lib/AtlanticWhatsapp.php");
+$WATL = new WhatsATL('MBIlDWDULhxhBDhTdeemmEKh1J0VOabQ0SKymUF1');
+?>
